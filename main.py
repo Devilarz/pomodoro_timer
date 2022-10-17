@@ -53,15 +53,15 @@ def start_timer():
 
     elif reps % 5 == 0 and reps == 5:
         count_down(ielts_sec)
-        title_label.config(text="Ielts reading test", fg=RED)
+        title_label.config(text="Ielts reading ", fg=RED)
 
     elif reps % 7 == 0 or reps % 13 == 0 or reps % 17 == 0 or reps % 23 == 0:
         count_down(python_sec)
-        title_label.config(text="python 100 days", fg=RED)
+        title_label.config(text="python", fg=RED)
 
     elif reps % 9 == 0 and reps == 9:
         count_down(lunch_sec)
-        title_label.config(text="Make lunch and Eating", fg=RED)
+        title_label.config(text="Make lunch", fg=RED)
 
     elif reps % 11 == 0 and reps == 11:
         count_down(ui_design_sec)
@@ -69,19 +69,19 @@ def start_timer():
 
     elif reps % 15 == 0:
         count_down(leasure_time_sec)
-        title_label.config(text="Leasure Time ", fg=RED)
+        title_label.config(text="Leasure_Time ", fg=RED)
 
     elif reps % 19 == 0:
         count_down(dinner_sec)
-        title_label.config(text="Make Dinner & Eating", fg=RED)
+        title_label.config(text="Make Dinner", fg=RED)
 
     elif reps % 21 == 0:
         count_down(smc_sec)
-        title_label.config(text="Learning Crypto SMC", fg=RED)
+        title_label.config(text="Crypto SMC", fg=RED)
 
     elif reps % 25 == 0:
         count_down(bounty_sec)
-        title_label.config(text="Bounty & Airdrops", fg=RED)
+        title_label.config(text="Airdrops", fg=RED)
 
 
     # if it's the 2nd,4th,6th,8th,10th,12th,14th,16th,18th,20th,22th,24th,26th rep:
@@ -92,7 +92,7 @@ def start_timer():
     #if it's the 1st rep:
     else:
         count_down(technical_sec)
-        title_label.config(text="Technical Analyze", fg=GREEN)
+        title_label.config(text="Analyze", fg=GREEN)
 
 
 
